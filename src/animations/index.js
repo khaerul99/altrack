@@ -303,7 +303,7 @@ export const boxExit = (e) => {
 
 export const fadeIn = (el) => {
   gsap.to(el, {
-    duration: 2,
+    duration: 1,
     opacity: 1,
     y: -60,
     ease: "power4.out",

@@ -27,10 +27,17 @@ function Navbar() {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black"
             >
-              <li>
+              <li className="py-2">
+                <Link to={"/"}>
                 <a>Home</a>
+                </Link>
               </li>
-              <li>
+              <li className="py-2">
+                <Link>
+                <a>Catalog</a>
+                </Link>
+              </li>
+              {/* <li>
                 <a>Parent</a>
                 <ul className="p-2">
                   <li>
@@ -40,9 +47,11 @@ function Navbar() {
                     <a>Submenu 2</a>
                   </li>
                 </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
+              </li> */}
+              <li className="py-2">
+                <Link to={"/about"}>
+                <a>About Us</a>
+                </Link>
               </li>
             </ul>
           </div>
