@@ -218,7 +218,7 @@ const animateShapes = () => {
   });
   infiniteTl
     .to(".shapes .shape", {
-      duration: 4,
+      duration: 3,
       rotate: 360,
       delay: -1,
       ease: "power3.easeInOut",
@@ -257,19 +257,19 @@ const animateMainShape = () => {
   });
   infiniteTl
     .to(".shapes .main-circle", {
-      duration: 6,
+      duration: 3,
       x: -30,
       y: -50,
       ease: "expo.easeOut",
     })
     .to(".shapes .main-circle", {
-      duration: 6,
+      duration: 3,
       x: -30,
       y: 50,
       ease: "expo.easeOut",
     })
     .to(".shapes .main-circle", {
-      duration: 4,
+      duration: 2,
       x: 0,
       y: 0,
       ease: "expo.easeOut",
@@ -303,7 +303,7 @@ export const boxExit = (e) => {
 
 export const fadeIn = (el) => {
   gsap.to(el, {
-    duration: 1,
+    duration: 2,
     opacity: 1,
     y: -60,
     ease: "power4.out",

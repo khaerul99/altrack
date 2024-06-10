@@ -1,20 +1,17 @@
 import React, { useEffect } from 'react'
 import'./preloader.css'
-import { preLoaderAnim } from '../../animations'
+import gsap from 'gsap';
+import { preLoaderAnim } from '../../animations';
 
 function Preloader() {
 
-useEffect(()=>(
-    preLoaderAnim()
-),[])
-
+    useEffect(()=>(
+        preLoaderAnim()
+    ), [])
+    
   return (
    <div className="preloader">
-    <div className="texts-container">
-        <span>Welcome</span>
-        <span>To</span>
-        <span>ALTRACK</span>
-    </div>
+   <div className='loader'></div>
    </div>
   )
 }
