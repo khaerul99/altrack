@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../layouts/Layout";
 import Hero from "../../components/Hero";
+import Galery from "../../components/galery";
 // import { datas } from "../../data/datas";
 
 function Home() {
@@ -35,7 +36,7 @@ function Home() {
           <div className="lg:col-span-2 lg:flex ">
             <div className="flex flex-col justify-center items-center">
               <h1 className="text-4xl text-white font-bold">
-                Lorem ipsum dolor sit amet.
+              Mengapa Memilih Altraker?
               </h1>
               <p className="text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
@@ -60,10 +61,9 @@ function Home() {
                 />
               </svg>
 
-              <h1 className="text-2xl text-white font-bold">Keamanan</h1>
+              <h1 className="text-2xl text-white font-bold">Akurasi</h1>
               <p className="text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
-                quibusdam.
+              Kami menggunakan teknologi GPS terbaru untuk memberikan data lokasi yang akurat, memastikan Anda selalu tahu di mana kendaraan Anda berada.
               </p>
             </div>
           </div>
@@ -84,10 +84,9 @@ function Home() {
                 />
               </svg>
 
-              <h1 className="text-2xl text-white font-bold">Efisien</h1>
+              <h1 className="text-2xl text-white font-bold">Keandalan</h1>
               <p className="text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
-                quibusdam.
+              Sistem kami dirancang untuk menjadi kuat dan dapat diandalkan, memberikan ketenangan pikiran bahwa kendaraan Anda aman.
               </p>
             </div>
           </div>
@@ -108,37 +107,39 @@ function Home() {
                 />
               </svg>
 
-              <h1 className="text-2xl text-white font-bold">Terkontrol</h1>
+              <h1 className="text-2xl text-white font-bold">Inovasi</h1>
               <p className="text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
-                quibusdam.
+              Kami terus meningkatkan dan menginovasi produk kami untuk memenuhi kebutuhan pelanggan yang berkembang dan tantangan keamanan kendaraan modern.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="py-20">
+      <div className="py-20 relative">
+<div className="absolute h-[300px] w-[300px] bg-white rounded-full right-0 bottom-0 blur-2xl  opacity-10"></div>
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div>
-            <div className="w-full p-5">
+          <div className="flex justify-center">
+            <div className="w-full md:w-[400px] md:h-[400px] p-5 ">
               <img
-                src="assets/foto/tracker.jpeg"
+                src="assets/image/ALTRACK.jpg"
                 alt=""
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
-          <div>
+          <div className="relative">
             <div className=" flex flex-col gap-2 p-5">
               <h1 className="text-white font-extrabold text-4xl">
-                Lorem ipsum dolor sit amet consectetur.
+                Bergabunglah dengan Perjalanan Kami
               </h1>
               <p className="text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-                quo esse quasi itaque eaque!. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Debitis deserunt error ipsam
-                quisquam soluta molestiae aliquid, omnis odit quod nostrum?
+                Rasakan perbedaan yang dapat Altraker buat untuk keamanan
+                kendaraan Anda. Apakah Anda melindungi mobil pribadi atau
+                mengelola armada kendaraan, kami memiliki solusi yang tepat
+                untuk Anda. Bergabunglah dengan komunitas pelanggan kami yang
+                puas yang mempercayai Altraker untuk menjaga kendaraan mereka
+                tetap aman dan terlindungi.
               </p>
             </div>
           </div>
@@ -354,9 +355,12 @@ function Home() {
         </div>
       </div>
 
-      <div className="py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div>
+      <div className="py-20 relative">
+<div className="absolute h-[300px] w-[300px] bg-white rounded-full left-0-0 bottom-0 blur-2xl  opacity-10"></div>
+<div className="absolute h-[300px] w-[300px] bg-blue-800 rounded-full left-24 bottom-10 blur-2xl  opacity-20"></div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 relative">
+          <div className="">
             <div className=" flex flex-col gap-2 p-5">
               <h1 className="text-white font-extrabold text-4xl">
                 Lorem ipsum dolor sit amet consectetur.
@@ -369,16 +373,53 @@ function Home() {
               </p>
             </div>
           </div>
-          <div>
-            <div className="w-full p-5">
+          <div className="flex justify-center">
+            <div className="w-full md:w-[500px] md:h-[500px] p-5 ">
               <img
-                src="assets/foto/tracker.jpeg"
+                src="assets/image/ALTRACK2.jpg"
                 alt=""
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="py-20">
+        <div className="flex justify-center">
+          <h1 className="text-white font-bold text-2xl">Galeri Altrack</h1>
+        </div>
+        <div>
+          <Galery/>
+        </div>
+        {/* <div className="py-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-5">
+            <div className="w-full lg:h-[500px]">
+              <img src="assets/image/image1.jpg" alt="" className="h-full w-full object-cover" />
+            </div>
+            <div className="w-full lg:h-[500px]">
+              <img src="assets/image/image2.jpg" alt="" className="h-full w-full object-cover" />
+            </div>
+            <div className="w-full lg:h-[500px]">
+              <img src="assets/image/image3.jpg" alt="" className="h-full w-full object-cover" />
+            </div>
+            <div className="w-full lg:h-[500px]">
+              <img src="assets/image/image4.jpg" alt="" className="h-full w-full object-cover" />
+            </div>
+            <div className="w-full lg:h-[500px]">
+              <img src="assets/image/image5.jpg" alt="" className="h-full w-full object-cover" />
+            </div>
+            <div className="w-full lg:h-[500px]">
+              <img src="assets/image/image6.jpg" alt="" className="h-full w-full object-cover" />
+            </div>
+            <div className="w-full lg:h-[500px]">
+              <img src="assets/image/image7.jpg" alt="" className="h-full w-full object-cover" />
+            </div>
+            <div className="w-full lg:h-[500px]">
+              <img src="assets/image/image8.jpg" alt="" className="h-full w-full object-cover" />
+            </div>
+          </div>
+        </div> */}
       </div>
     </Layout>
   );

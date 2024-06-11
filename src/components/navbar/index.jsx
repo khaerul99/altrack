@@ -53,11 +53,16 @@ function Navbar() {
                 <a>About Us</a>
                 </Link>
               </li>
+              <li className="py-2">
+                <Link to={"/contact"}>
+                <a>Contact Us</a>
+                </Link>
+              </li>
             </ul>
           </div>
           <a className="text-xl font-bold">AlTrack</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 ">
             <li>
               <Link to={"/"}>
@@ -87,11 +92,16 @@ function Navbar() {
               <a>About Us</a>
               </Link>
             </li>
+            <li>
+              <Link to={"/contact"}>
+              <a>Contact Us</a>
+              </Link>
+            </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        {/* <div className="navbar-end">
           <a className="btn">Button</a>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

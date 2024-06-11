@@ -38,7 +38,7 @@ const Card = ({ img, label, price, desc, msg }) => {
   return (
     <div className="card w-full md:w-80 bg-base-100 shadow-xl">
       <figure>
-        <img src={img} alt="Shoes" />
+        <img src={img} alt="Shoes" className="w-full h-[300px] object-cover" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{label}!</h2>

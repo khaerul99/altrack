@@ -4,19 +4,20 @@ import Footer from "../components/footer";
 import Preloader from "../components/preloader";
 
 function Layout({ children }) {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulate loading time
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 4000); // Simulate 3 seconds loading time
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   // Simulate loading time
+  //   const timer = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 4000); // Simulate 3 seconds loading time
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   return (
     <>
-      {loading && <Preloader />}
+      {/* {loading && <Preloader />} */}
+      <Preloader/>
       {/* {!loading && ( */}
         <>
           <div className=" bg-[#0F0F0F]">

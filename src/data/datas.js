@@ -1,7 +1,7 @@
 export const dataProduct = [
     {
         id:1,
-        img: "assets/image/tracker1.jpg",
+        img: "assets/image/tracker2.jpg",
         price: "1.250.000",
         label: "GPS tracker gt06n",
         desc:"GPS tracker gt06n fitur cut off, sadap suara, sudah terima pasang server provider, fitur lengkap auto amman",
@@ -9,7 +9,7 @@ export const dataProduct = [
     },
     {
         id:2,
-        img: "assets/image/tracker1.jpg",
+        img: "assets/image/image6.jpg",
         price: "650.000",
         label: "Wanway Altrack",
         desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
@@ -25,7 +25,7 @@ export const dataProduct = [
     },
     {
         id:4,
-        img: "assets/image/tracker1.jpg",
+        img: "assets/image/tracker2.jpg",
         price: "550.000",
         label: "GPS gt06n seccond",
         desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
@@ -33,7 +33,7 @@ export const dataProduct = [
     },
     {
         id:5,
-        img: "assets/image/tracker1.jpg",
+        img: "assets/image/tracker2.jpg",
         price: "550.000",
         label: "GPS tracker concox",
         desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
