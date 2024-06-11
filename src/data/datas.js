@@ -1,29 +1,42 @@
-// import React from "react";
-
-// export const datas = [
-//   {
-//     icon: (
-//       <svg
-//         xmlns="http://www.w3.org/2000/svg"
-//         fill="none"
-//         viewBox="0 0 24 24"
-//         strokeWidth={1.5}
-//         stroke="currentColor"
-//         className="size-6"
-//       >
-//         <path
-//           strokeLinecap="round"
-//           strokeLinejoin="round"
-//           d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-//         />
-//         <path
-//           strokeLinecap="round"
-//           strokeLinejoin="round"
-//           d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-//         />
-//       </svg>
-//     ),
-//     label: "Lorem ipsum dolor sit amet.",
-//     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ipsa.",
-//   },
-// ];
+export const dataProduct = [
+    {
+        id:1,
+        img: "assets/image/tracker1.jpg",
+        price: "1.250.000",
+        label: "GPS tracker gt06n",
+        desc:"GPS tracker gt06n fitur cut off, sadap suara, sudah terima pasang server provider, fitur lengkap auto amman",
+        msg:"saya%20ingin%20membeli%20product%20gt06n",
+    },
+    {
+        id:2,
+        img: "assets/image/tracker1.jpg",
+        price: "650.000",
+        label: "Wanway Altrack",
+        desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
+        msg:"saya%20ingin%20membeli%20product%20Wanway%20Altrack",
+    },
+    {
+        id:3,
+        img: "assets/image/tracker1.jpg",
+        price: "750.000",
+        label: "Wanway Altrack G19s",
+        desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
+        msg:"saya%20ingin%20membeli%20product%20wanway%20Altrack%G19s",
+    },
+    {
+        id:4,
+        img: "assets/image/tracker1.jpg",
+        price: "550.000",
+        label: "GPS gt06n seccond",
+        desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
+        msg:"saya%20ingin%20membeli%20product%20gt06n%20seccond",
+    },
+    {
+        id:5,
+        img: "assets/image/tracker1.jpg",
+        price: "550.000",
+        label: "GPS tracker concox",
+        desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
+        msg:"saya%20ingin%20membeli%20product%20Altrack%20concox",
+    },
+]

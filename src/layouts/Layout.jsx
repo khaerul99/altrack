@@ -19,7 +19,7 @@ function Layout({ children }) {
       {loading && <Preloader />}
       {/* {!loading && ( */}
         <>
-          <div className="">
+          <div className=" bg-[#0F0F0F]">
             <div className="flex justify-center bg-[#0F0F0F]">
               <div className="w-[1280px] max-w-7xl">
                 <Navbar />

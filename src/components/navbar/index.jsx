@@ -33,7 +33,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="py-2">
-                <Link>
+                <Link to={"/catalog"}>
                 <a>Catalog</a>
                 </Link>
               </li>
@@ -65,7 +65,9 @@ function Navbar() {
               </Link>
             </li>
             <li>
+              <Link to={"/catalog"}>
               <a>Catalog</a>
+              </Link>
             </li>
             {/* <li>
               <details>
