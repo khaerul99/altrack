@@ -15,7 +15,7 @@ function Hero() {
       <div className="max-w-lg p-5">
         <h1 className="mb-5 text-5xl font-bold">Welcome To Altrack</h1>
         <p className="mb-5">Nikmati ketenangan pikiran dengan Altraker. Pelacakan GPS real-time yang dapat diandalkan untuk mobil Anda, kapan saja dan di mana saja.</p>
-        <button className="px-4 py-2 bg-blue-400 rounded-md">Get Started</button>
+        {/* <button className="px-4 py-2 bg-blue-400 rounded-md">Get Started</button> */}
       </div>
     </div>
   </div>
