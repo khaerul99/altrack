@@ -44,7 +44,7 @@ export const dataProduct = [
         img: "assets/image/tracker3.jpeg",
         price: "550.000",
         label: "GPS tracker gx 06",
-        desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
-        msg:"saya%20ingin%20membeli%20product%20Altrack%20concox",
+        desc:"GPS tracker gx 06 khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
+        msg:"saya%20ingin%20membeli%20product%20Altrack%20gx%2006",
     },
 ]
