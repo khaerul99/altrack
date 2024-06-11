@@ -9,7 +9,7 @@ function AboutUs() {
           <div className="">
             <div className="lg:h-[500px] lg:w-[500px] overflow-hidden">
               <img
-                src="/assets/foto/tracker.jpeg"
+                src="/assets/image/ALTRACK3.jpg"
                 alt=""
                 className="object-cover h-full w-full"
               />
