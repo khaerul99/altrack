@@ -41,12 +41,12 @@ const Card = ({ img, label, price, desc, msg }) => {
         <img src={img} alt="Shoes" className="w-full h-[300px] object-cover" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{label}!</h2>
+        <h2 className="card-title">{label}</h2>
         <h3 className="font-semibold">Rp. {price}</h3>
         <p>{desc}</p>
         <div className="card-actions justify-end">
           <Link to={`https://wa.me/628817724742/?text=${msg}`}>
-            <button className="btn btn-primary">Buy Now</button>
+            <button className="btn btn-primary">Beli sekarang</button>
           </Link>
         </div>
       </div>
