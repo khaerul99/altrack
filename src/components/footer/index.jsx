@@ -10,7 +10,7 @@ function Footer() {
         <p>
           Traxker GPS Industries
           <br />
-          Providing reliable tech since 1992
+          Providing reliable tech since 2018
         </p>
       </aside>
       <nav>

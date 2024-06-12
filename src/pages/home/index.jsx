@@ -15,17 +15,17 @@ function Home() {
       <div className="flex justify-center relative lg:py-10 ">
         <div className="stats stats-vertical lg:stats-horizontal lg:absolute shadow w-full lg:w-[800px] -top-10  lg:flex">
           <div className="stat flex flex-col items-center">
-            <div className="stat-title">Downloads</div>
-            <div className="stat-value">31K</div>
-          </div>
-
-          <div className="stat flex flex-col items-center">
-            <div className="stat-title">New Users</div>
-            <div className="stat-value">4,200</div>
-          </div>
-
-          <div className="stat flex flex-col items-center">
             <div className="stat-title">Pengguna</div>
+            <div className="stat-value">31k</div>
+          </div>
+
+          <div className="stat flex flex-col items-center">
+            <div className="stat-title">Daerah</div>
+            <div className="stat-value">20+</div>
+          </div>
+
+          <div className="stat flex flex-col items-center">
+            <div className="stat-title">Pengguna altrack</div>
             <div className="stat-value">1,200</div>
           </div>
         </div>
@@ -158,7 +158,7 @@ function Home() {
           <div className="h-full w-full bg-slate-200 bg-opacity-60 p-5">
             <div className="flex justify-center">
               <h2 className="font-semibold text-2xl">
-                Haridkan beragam fitur canggih
+                Hadirkan beragam fitur canggih
               </h2>
             </div>
             <div>
@@ -185,7 +185,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col gap-2 pt-2">
                       <h3 className="font-semibold text-center">
-                        Lorem ipsum dolor sit.
+                        Melacak posisi
                       </h3>
                       <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -216,7 +216,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col gap-2 pt-2">
                       <h3 className="font-semibold text-center">
-                        Lorem ipsum dolor sit.
+                        Vibration alarm
                       </h3>
                       <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -247,7 +247,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col gap-2 pt-2">
                       <h3 className="font-semibold text-center">
-                        Lorem ipsum dolor sit.
+                        Cut-oppengine
                       </h3>
                       <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -278,7 +278,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col gap-2 pt-2">
                       <h3 className="font-semibold text-center">
-                        Lorem ipsum dolor sit.
+                        Ovwerspeed alarm
                       </h3>
                       <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -309,7 +309,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col gap-2 pt-2">
                       <h3 className="font-semibold text-center">
-                        Lorem ipsum dolor sit.
+                        Tracking website
                       </h3>
                       <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -340,7 +340,7 @@ function Home() {
                     </div>
                     <div className="flex flex-col gap-2 pt-2">
                       <h3 className="font-semibold text-center">
-                        Lorem ipsum dolor sit.
+                        SOS alarm
                       </h3>
                       <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -363,13 +363,10 @@ function Home() {
           <div className="">
             <div className=" flex flex-col gap-2 p-5">
               <h1 className="text-white font-extrabold text-4xl">
-                Lorem ipsum dolor sit amet consectetur.
+              Visi Kami
               </h1>
               <p className="text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-                quo esse quasi itaque eaque!. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Debitis deserunt error ipsam
-                quisquam soluta molestiae aliquid, omnis odit quod nostrum?
+              Kami membayangkan dunia di mana pemilik kendaraan merasa aman dan terhubung, di mana pun perjalanan mereka membawa mereka. Dengan mengintegrasikan teknologi mutakhir dengan semangat kami untuk keamanan, kami bertujuan menjadi penyedia solusi pelacakan GPS terkemuka di dunia.
               </p>
             </div>
           </div>

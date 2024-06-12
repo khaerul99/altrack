@@ -33,7 +33,7 @@ export const dataProduct = [
     },
     {
         id:5,
-        img: "assets/image/tracker2.jpg",
+        img: "assets/image/tracker5.jpeg",
         price: "550.000",
         label: "GPS tracker concox",
         desc:"GPS Wanway khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
@@ -42,8 +42,16 @@ export const dataProduct = [
     {
         id:5,
         img: "assets/image/tracker3.jpeg",
-        price: "550.000",
+        price: "1.000.000",
         label: "GPS tracker gx 06",
+        desc:"GPS tracker gx 06 khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
+        msg:"saya%20ingin%20membeli%20product%20Altrack%20gx%2006",
+    },
+    {
+        id:5,
+        img: "assets/image/tracker4.jpeg",
+        price: "500.000",
+        label: "GPS tracker gx 01",
         desc:"GPS tracker gx 06 khusus pemantauan server IOPS sudah teria pasang kartu dan server, untuk motor, mobil dan lainnya",
         msg:"saya%20ingin%20membeli%20product%20Altrack%20gx%2006",
     },

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Preloader from "../components/preloader";
+import Stiky from "../components/stiky";
 
 function Layout({ children }) {
   // const [loading, setLoading] = useState(true);
@@ -21,6 +22,7 @@ function Layout({ children }) {
       {/* {!loading && ( */}
         <>
           <div className=" bg-[#0F0F0F]">
+              <Stiky/>
             <div className="flex justify-center bg-[#0F0F0F]">
               <div className="w-[1280px] max-w-7xl">
                 <Navbar />
