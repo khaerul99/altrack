@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../../layouts/Layout";
 import { dataProduct } from "../../data/datas";
 import { Link } from "react-router-dom";
+// import { Tabs, Tab } from 'daisyui';
+import "daisyui/dist/full.css";
 
 function Catalog() {
   const dataProducts = dataProduct;
@@ -19,7 +21,9 @@ function Catalog() {
                 <div>
                   <Card
                     key={e.id}
-                    img={e.img}
+                    img1={e.img1}
+                    img2={e.img2}
+                    img3={e.img3}
                     label={e.label}
                     price={e.price}
                     desc={e.desc}
@@ -34,20 +38,56 @@ function Catalog() {
   );
 }
 
-const Card = ({ img, label, price, desc, msg }) => {
+const Card = ({ img1, img2, img3, label, price, desc, msg }) => {
   return (
+    // <div className="card w-full md:w-80 bg-base-100 shadow-xl">
+    //   <figure>
+    //     <img1 src={img1} alt="Shoes" className="w-full h-[300px] object-cover" />
+    //   </figure>
+    //   <div className="card-body">
+    //     <h2 className="card-title">{label}</h2>
+    //     <h3 className="font-semibold">Rp. {price}</h3>
+    //     <p>{desc}</p>
+    //     <div className="card-actions justify-end">
+    //       <Link to={`https://wa.me/628817724742/?text=${msg}`}>
+    //         <button className="px-4 py-2 bg-blue-400 rounded-md font-semibold text-[12px]">Beli sekarang</button>
+    //       </Link>
+    //     </div>
+    //   </div>
+    // </div>
     <div className="card w-full md:w-80 bg-base-100 shadow-xl">
-      <figure>
-        <img src={img} alt="Shoes" className="w-full h-[300px] object-cover" />
-        <img src={img} alt="Shoes" className="w-[300px] h-[300px] object-cover" />
-      </figure>
+      <div className="w-full carousel rounded-box">
+        <div className="carousel-item w-full">
+          <img
+            src={img1}
+            className="w-full h-[300px] object-cover"
+            alt="Tailwind CSS Carousel component"
+          />
+        </div>
+        <div className="carousel-item w-full">
+          <img
+            src={img2}
+            className="w-full h-[300px] object-cover"
+            alt="Tailwind CSS Carousel component"
+          />
+        </div>
+        <div className="carousel-item w-full">
+          <img
+            src={img3}
+            className="w-full h-[300px] object-cover"
+            alt="Tailwind CSS Carousel component"
+          />
+        </div>
+      </div>
       <div className="card-body">
         <h2 className="card-title">{label}</h2>
         <h3 className="font-semibold">Rp. {price}</h3>
         <p>{desc}</p>
         <div className="card-actions justify-end">
           <Link to={`https://wa.me/628817724742/?text=${msg}`}>
-            <button className="px-4 py-2 bg-blue-400 rounded-md font-semibold text-[12px]">Beli sekarang</button>
+            <button className="px-4 py-2 bg-blue-400 rounded-md font-semibold text-[12px]">
+              Beli sekarang
+            </button>
           </Link>
         </div>
       </div>
