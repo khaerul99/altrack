@@ -33,7 +33,7 @@ function Galery() {
         <div className="flex justify-center">
           <button
             onClick={handleToggleShow}
-            className="mt-5 px-4 py-2 bg-blue-400 text-white font-bold rounded-md"
+            className="mt-5 px-4 py-2 bg-blue-400 text-white font-bold rounded-md text-[14px] active:scale-95 duration-200"
           >
             {showAll ? 'Tampilkan Lebih Sedikit' : 'Lihat Lebih Banyak'}
           </button>

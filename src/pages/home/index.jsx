@@ -188,8 +188,7 @@ function Home() {
                         Melacak posisi
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit.
+                      Mengetahui lokasi kendaraan secara real-time untuk pengawasan yang lebih efektif.
                       </p>
                     </div>
                   </div>
@@ -219,8 +218,7 @@ function Home() {
                         Vibration alarm
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit.
+                      Memberikan peringatan ketika terdeteksi getaran mencurigakan pada kendaraan.
                       </p>
                     </div>
                   </div>
@@ -250,8 +248,7 @@ function Home() {
                         Cut-oppengine
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit.
+                      Memungkinkan Anda untuk mematikan mesin kendaraan dari jarak jauh dalam situasi darurat.
                       </p>
                     </div>
                   </div>
@@ -281,8 +278,7 @@ function Home() {
                         Ovwerspeed alarm
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit.
+                      Mengirimkan notifikasi ketika kendaraan melebihi batas kecepatan yang telah ditetapkan.
                       </p>
                     </div>
                   </div>
@@ -312,8 +308,7 @@ function Home() {
                         Tracking website
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit.
+                      Menawarkan akses mudah dan cepat untuk memantau kendaraan melalui platform online yang user-friendly.
                       </p>
                     </div>
                   </div>
@@ -343,8 +338,7 @@ function Home() {
                         SOS alarm
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit.
+                      Menyediakan fitur darurat yang dapat diaktifkan untuk meminta bantuan segera.
                       </p>
                     </div>
                   </div>
