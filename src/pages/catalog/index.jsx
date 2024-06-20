@@ -39,6 +39,7 @@ const Card = ({ img, label, price, desc, msg }) => {
     <div className="card w-full md:w-80 bg-base-100 shadow-xl">
       <figure>
         <img src={img} alt="Shoes" className="w-full h-[300px] object-cover" />
+        <img src={img} alt="Shoes" className="w-[300px] h-[300px] object-cover" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{label}</h2>
@@ -46,7 +47,7 @@ const Card = ({ img, label, price, desc, msg }) => {
         <p>{desc}</p>
         <div className="card-actions justify-end">
           <Link to={`https://wa.me/628817724742/?text=${msg}`}>
-            <button className="btn btn-primary">Beli sekarang</button>
+            <button className="px-4 py-2 bg-blue-400 rounded-md font-semibold text-[12px]">Beli sekarang</button>
           </Link>
         </div>
       </div>
