@@ -8,7 +8,7 @@ function Footer() {
           <h1 className="font-bold text-2xl">ALTRACK</h1>
         </div>
         <p>
-          Traxker GPS Industries
+          Tracker GPS Industries
           <br />
           Providing reliable tech since 2018
         </p>

@@ -85,7 +85,7 @@ const Card = ({ img1, img2, img3, label, price, desc, msg }) => {
         <p>{desc}</p>
         <div className="card-actions justify-end">
           <Link to={`https://wa.me/628817724742/?text=${msg}`}>
-            <button className="px-4 py-2 bg-blue-400 rounded-md font-semibold text-[12px]">
+            <button className="px-4 py-2 bg-blue-400 rounded-md font-semibold text-[12px] text-white">
               Beli sekarang
             </button>
           </Link>
