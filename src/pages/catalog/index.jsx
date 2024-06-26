@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../../layouts/Layout";
 import { dataProduct } from "../../data/datas";
 import { Link } from "react-router-dom";
@@ -39,50 +39,47 @@ function Catalog() {
 }
 
 const Card = ({ img1, img2, img3, label, price, desc, msg }) => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
-    // <div className="card w-full md:w-80 bg-base-100 shadow-xl">
-    //   <figure>
-    //     <img1 src={img1} alt="Shoes" className="w-full h-[300px] object-cover" />
-    //   </figure>
-    //   <div className="card-body">
-    //     <h2 className="card-title">{label}</h2>
-    //     <h3 className="font-semibold">Rp. {price}</h3>
-    //     <p>{desc}</p>
-    //     <div className="card-actions justify-end">
-    //       <Link to={`https://wa.me/628817724742/?text=${msg}`}>
-    //         <button className="px-4 py-2 bg-blue-400 rounded-md font-semibold text-[12px]">Beli sekarang</button>
-    //       </Link>
-    //     </div>
-    //   </div>
-    // </div>
     <div className="card w-full md:w-80 bg-base-100 shadow-xl">
       <div className="w-full carousel rounded-box">
         <div className="carousel-item w-full">
           <img
             src={img1}
             className="w-full h-[300px] object-cover"
-            alt="Tailwind CSS Carousel component"
+            alt="Product Image 1"
           />
         </div>
         <div className="carousel-item w-full">
           <img
             src={img2}
             className="w-full h-[300px] object-cover"
-            alt="Tailwind CSS Carousel component"
+            alt="Product Image 2"
           />
         </div>
         <div className="carousel-item w-full">
           <img
             src={img3}
             className="w-full h-[300px] object-cover"
-            alt="Tailwind CSS Carousel component"
+            alt="Product Image 3"
           />
         </div>
       </div>
       <div className="card-body">
         <h2 className="card-title">{label}</h2>
         <h3 className="font-semibold">Rp. {price}</h3>
-        <p>{desc}</p>
+        <button onClick={openModal} className="px-4 py-2 bg-green-400 rounded-md font-semibold text-[12px] text-white">
+          Lihat Deskripsi
+        </button>
         <div className="card-actions justify-end">
           <Link to={`https://wa.me/628817724742/?text=${msg}`}>
             <button className="px-4 py-2 bg-blue-400 rounded-md font-semibold text-[12px] text-white">
@@ -91,6 +88,18 @@ const Card = ({ img1, img2, img3, label, price, desc, msg }) => {
           </Link>
         </div>
       </div>
+
+      {modalIsOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-5 rounded-lg shadow-lg max-w-sm w-full">
+            <h2 className="text-xl font-bold mb-4">{label}</h2>
+            <p>{desc}</p>
+            <button onClick={closeModal} className="mt-4 px-4 py-2 bg-blue-400 rounded-md font-semibold text-white">
+              Tutup
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

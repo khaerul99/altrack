@@ -29,7 +29,7 @@ function Contact() {
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div>
+                  <div className=""> 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -45,7 +45,10 @@ function Contact() {
                       />
                     </svg>
                   </div>
+                  <div className="flex flex-col">
                   <a href="tel:+62817724742">08817724742</a>
+                  <a href="tel:+62817724742">08817724742</a>
+                  </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <div>
